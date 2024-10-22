@@ -83,7 +83,14 @@
     margin-right:auto;
     margin-left:auto;
     font-style: italic;
-    color: #4A148C ;
+    color: #4A148C;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    text-align: center; /* Căn giữa nội dung nhập vào */
+}.submit .thePass input::placeholder{
+  
+    color: #BA68C8;
     display: flex;
     align-items: center; /* Căn giữa theo chiều dọc */
     justify-content: center; /* Căn giữa theo chiều ngang */
