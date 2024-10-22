@@ -17,7 +17,7 @@
 
 .submit {
     background-color: white;
-    width:500px;
+    width:300px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +31,7 @@
 .submit div{
     width: 100%;
     margin-bottom: 10px;
+   
 }
 .submit label{
     color:#4A148C;
@@ -51,6 +52,9 @@
     justify-content: center;
     height: 32px;
     position: relative;
+    display:flex;
+    text-align: center;
+    
 }
 .password-toggle-icon {
     position: absolute;
@@ -68,11 +72,22 @@
     color: #333;
   }
 .submit .thePass input{
+    width:50%;
+    height: 20px;
+    line-height: 20px;
     outline: 2px solid transparent;
     outline-offset: 2px;
     border:none;
     appearance: none;
     display: block;
+    margin-right:auto;
+    margin-left:auto;
+    font-style: italic;
+    color: #4A148C ;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    text-align: center; /* Căn giữa nội dung nhập vào */
 }
 .submit .thePass button{
    display: flex;
@@ -82,11 +97,11 @@
     width:100%;
     border-radius: 6px;
     border:  #4A148C solid 1px;
-    padding: 8px;
-    margin: 5px 0;
     outline: 2px solid transparent;
     outline-offset: 2px;
-    color: #4A148C ;
+    
+     
+   
 }
 .submit input:hover{
     border-color: blue;
@@ -99,13 +114,17 @@
     padding:  5px 15px;
     font-size: 1rem;
     line-height: 1.5rem;
+    width: 150px;
+    font-weight: bold;
+    border:none;
+    color: #4A148C;
 }
 
 .spinner {
     margin-right: 8px; 
     height: 16px; 
     width: 16px; 
-    fill: white; 
+    fill: #4A148C; 
     color: #e5e7eb; 
     animation: spin 1s linear infinite; 
   }
