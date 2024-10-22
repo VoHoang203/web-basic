@@ -26,7 +26,7 @@
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .submit div{
     width: 100%;
@@ -69,7 +69,7 @@
   
   .password-toggle-icon i {
     font-size: 18px;
-    color: #333;
+    color: #FF6F00;
   }
 .submit .thePass input{
     width:50%;
@@ -85,16 +85,16 @@
     font-style: italic;
     color: #4A148C;
     display: flex;
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    text-align: center; /* Căn giữa nội dung nhập vào */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }.submit .thePass input::placeholder{
   
     color: #BA68C8;
     display: flex;
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    text-align: center; /* Căn giữa nội dung nhập vào */
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
 }
 .submit .thePass button{
    display: flex;
